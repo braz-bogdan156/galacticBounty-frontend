@@ -15,7 +15,7 @@ export default function PublicBounties() {
   useEffect(() => {
     const fetchBounties = async () => {
       try {
-        const res = await axios.get('/bounties');
+        const res = await axios.get('api/bounties');
         setBounties(res.data);
         setFiltered(res.data);
       } catch (err) {
