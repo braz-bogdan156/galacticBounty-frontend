@@ -1,0 +1,18 @@
+.formContainer {
+    min-width: 80vw;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   margin: 0 auto; 
+   padding: 20px; 
+  }
+
+   .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--main-text-color);
+    text-transform: uppercase;
+    text-align: center;
+  }

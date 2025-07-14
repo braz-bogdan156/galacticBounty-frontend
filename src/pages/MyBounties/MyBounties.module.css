@@ -1,0 +1,40 @@
+
+.myBountiesContainer{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px;
+  height: 100vh;
+}
+
+.myBountiesTitle{
+  color: var(--second-main-text-color);
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+.bountyList{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.bountyItem{
+  background-color:  rgba(24, 24, 24, 0.173);
+  padding: 15px;
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.876);
+  transition:  background-color 0.3s ease, color 0.3s ease;
+}
+.bountyItem:hover{
+  background-color: rgba(24, 24, 24, 0.407);
+  color: var(--second-main-text-color);
+}
+
+.buttonsContainer{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  }
