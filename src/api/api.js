@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = import.meta.env.VITE_API_URL ;
+const baseURL = import.meta.env.VITE_BACKEND_URL;
 
 const api = axios.create({
   baseURL,
@@ -11,5 +11,4 @@ api.interceptors.request.use((config) => {
   if (token) config.headers.Authorization = `Bearer ${token}`;
   return config;
 });
-
 export default api;
